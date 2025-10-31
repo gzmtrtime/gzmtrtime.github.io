@@ -27,7 +27,7 @@ export default function Timetable({ station, lineMetas }) {
       if (isNaN(Number(lineId))) return
       Object.entries(byDir).forEach(([dir, trains]) => {
         let nearestKey = null
-        let nearestDelta = null
+        let nearestDelta = Infinity
         let fallbackKey = null
         trains.forEach((train, tIdx) => {
           const s = Number(train.time1)
@@ -85,7 +85,7 @@ export default function Timetable({ station, lineMetas }) {
                   <div className="space-y-1" style={{
                     'overflow-y': 'scroll',
                     'height': '12em',
-                    'width': '24em'
+                    'width': '18em'
                   }}  >
                     {
                       trains.map((t, idx) => {
