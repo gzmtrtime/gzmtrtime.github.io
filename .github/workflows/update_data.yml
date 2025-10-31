@@ -1,0 +1,52 @@
+name: Update data from gzmtrtime
+
+on: workflow_dispatch
+  # schedule:
+  #   - cron: '45 0/1 * * *'
+  # workflow_dispatch:  # allows manual trigger as well
+
+permissions: write-all
+
+jobs:
+  run-daily-api:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+          with:
+            persist-credentials: false
+            fetch-depth: 0
+        - name: Set up Git user
+          run: |
+              git config --global user.name "gzmtrtime"
+              git config --global user.email "gzmtrtime@hotmail.com"
+        - name: Update data from gzmtrtime
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GZMTRTIME_REPO_URL: ${{ secrets.GZMTRTIME_REPO_URL }}
+          run: |
+              sudo apt install -y nodejs
+              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+              WORKING_DIR=$(pwd) # The gh page repo
+              mkdir -p "${WORKING_DIR}"/public/data/sta
+              cd ~
+              git clone --depth=1 ${{ secrets.GZMTRTIME_REPO_URL }} mtrdata
+              cd mtrdata
+              mv json/ sta/
+              cp -r sta/* "${WORKING_DIR}"/public/data/sta/
+              mv "${WORKING_DIR}"/public/data/sta/station-meta.json "${WORKING_DIR}"/public/data/
+              cd "${WORKING_DIR}"
+              npm install
+              npm run build
+              cp -r dist ~/
+              git switch --orphan tmp
+              rm -rf *
+              cp -r ~/dist/* ./
+              git add *
+              git commit -m "Updated | $(date -u +'%Y-%m-%dT%H:%M:%S.%3NZ') | $(($(date +%s%N)/1000000))" || (echo "Failed at git commit" && exit 1)
+              git push -u -f origin tmp || (echo "Failed at git push to tmp" && exit 1)
+              git checkout --track origin/publish
+              git reset --hard origin/tmp
+              git push -f  || (echo "Failed at git push to publish" && exit 1)
+              git push origin --delete tmp
+
