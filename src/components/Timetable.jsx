@@ -23,11 +23,12 @@ export default function Timetable({ station }) {
     // after render, scroll to nearest upcoming train
     setTimeout(() => {
       const now = nowSecondsSinceMidnight()
-      let nearestKey = null
-      let nearestDelta = Infinity
+
       for (const lineId in data) {
+        let nearestKey = null
+        let nearestDelta = Infinity
         const byDir = data[lineId]
-        if(isNaN(lineId)) continue;
+        if (isNaN(lineId)) continue;
         for (const dir in byDir) {
           for (const [i, t] of byDir[dir].entries()) {
             const s = Number(t.time1)
@@ -37,11 +38,12 @@ export default function Timetable({ station }) {
               nearestKey = `${lineId}-${dir}-${i}`
             }
           }
+          if (nearestKey && rowRefs.current[nearestKey]) {
+            rowRefs.current[nearestKey].scrollIntoView({ behavior: 'smooth', block: 'center' })
+          }
         }
       }
-      if (nearestKey && rowRefs.current[nearestKey]) {
-        rowRefs.current[nearestKey].scrollIntoView({ behavior: 'smooth', block: 'center' })
-      }
+
     }, 150)
   }, [data])
 
@@ -54,31 +56,35 @@ export default function Timetable({ station }) {
         {Object.keys(data || {}).length === 0 && <div className="text-sm text-gray-500">此站点无数据可用</div>}
 
         {Object.entries(data || {}).map(([lineId, dirs]) => (
-          isNaN(lineId)||
+          isNaN(lineId) ||
           <div key={lineId} className="p-3 border rounded">
             <h3 className="font-semibold">{lineId}号线</h3>
             <div className="grid grid-cols-1 gap-2 mt-2">
               {Object.entries(dirs).map(([dir, trains]) => (
                 <div key={dir} className="mt-2">
                   <div className="text-sm text-gray-600 mb-1">方向: {(trains[0] && (trains[0].directionStationC || trains[0].directionStationE)) || (dir === '0' ? '下行' : '上行')}</div>
-                  <div className="space-y-1">
+                  <div className="space-y-1" style={{
+                    'overflow-y': 'scroll',
+                    'height': '12em',
+                    'width': '24em'
+                  }}  >
                     {
-                        trains.map((t, idx) => {
-                          const key = `${lineId}-${dir}-${idx}`
-                          return (
-                            <div key={key} ref={el => rowRefs.current[key] = el} className="p-2 border rounded flex justify-between items-center">
-                              <div>
-                                <div className="font-medium">往 {t.directionStationC || t.directionStationE} 方向 → 下一站: {t.desStationC || t.desStationE}</div>
-                                <div className="text-sm text-gray-500">车次 #{t.trainNo} · 终点站 {t.trainNoStationC || t.trainNoStationE}</div>
-                              </div>
-                              <div className="text-right">
-                                <div>到达: {secondsToHHMMSS(t.time1)}</div>
-                                <div className="text-sm text-gray-500">发车: {secondsToHHMMSS(t.time2)}</div>
-                              </div>
+                      trains.map((t, idx) => {
+                        const key = `${lineId}-${dir}-${idx}`
+                        return (
+                          <div key={key} ref={el => rowRefs.current[key] = el} className="p-2 border rounded flex justify-between items-center">
+                            <div>
+                              <div className="font-medium">往 {t.directionStationC || t.directionStationE} 方向 → 下一站: {t.desStationC || t.desStationE}</div>
+                              <div className="text-sm text-gray-500">车次 #{t.trainNo} · 终点站 {t.trainNoStationC || t.trainNoStationE}</div>
                             </div>
-                          )
-                        })
-                      }
+                            <div className="text-right">
+                              <div>到达: {secondsToHHMMSS(t.time1)}</div>
+                              <div className="text-sm text-gray-500">发车: {secondsToHHMMSS(t.time2)}</div>
+                            </div>
+                          </div>
+                        )
+                      })
+                    }
                   </div>
                 </div>
               ))}
