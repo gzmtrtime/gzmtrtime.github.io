@@ -2,7 +2,7 @@ name: Update data from gzmtrtime
 
 on:
   schedule:
-     - cron: '45 0/1 * * *'
+     - cron: '15 0/1 * * *'
   workflow_dispatch:  # allows manual trigger as well
 
 permissions: write-all
