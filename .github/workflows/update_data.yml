@@ -1,9 +1,9 @@
 name: Update data from gzmtrtime
 
-on: workflow_dispatch
-  # schedule:
-  #   - cron: '45 0/1 * * *'
-  # workflow_dispatch:  # allows manual trigger as well
+on:
+  schedule:
+     - cron: '45 0/1 * * *'
+  workflow_dispatch:  # allows manual trigger as well
 
 permissions: write-all
 
