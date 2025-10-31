@@ -63,7 +63,7 @@ export default function Timetable({ station }) {
                   <div className="text-sm text-gray-600 mb-1">方向: {(trains[0] && (trains[0].directionStationC || trains[0].directionStationE)) || (dir === '0' ? '下行' : '上行')}</div>
                   <div className="space-y-1">
                     {
-                        trains.slice(0, 3).map((t, idx) => {
+                        trains.map((t, idx) => {
                           const key = `${lineId}-${dir}-${idx}`
                           return (
                             <div key={key} ref={el => rowRefs.current[key] = el} className="p-2 border rounded flex justify-between items-center">
