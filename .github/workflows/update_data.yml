@@ -8,7 +8,7 @@ on:
 permissions: write-all
 
 jobs:
-  run-daily-api:
+  update-gzmtr-data:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout repository
