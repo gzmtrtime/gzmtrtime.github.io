@@ -36,8 +36,7 @@ export default function SearchPage({onSelect, stationMeta}){
       <div className="mt-4">
         {results.map(r => (
           <div key={r.stationNo} className="py-2 border-b cursor-pointer" onClick={()=>onSelect(r)}>
-            <div className="font-medium">{r.cname || r.ename}</div>
-            <div className="text-sm text-gray-500">{r.cname || r.ename} · {r.stationNo}</div>
+            <div className="font-medium">{r.cname || r.ename} · {r.stationNo}</div>
           </div>
         ))}
       </div>

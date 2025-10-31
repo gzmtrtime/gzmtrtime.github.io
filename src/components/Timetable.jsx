@@ -10,7 +10,7 @@ export default function Timetable({ station }) {
     if (!station) return
     const path = `/data/sta/${station.stationNo}.json`
     fetch(path).then(r => r.json())
-      .then(j => setData(j.result || j)).catch(err => {
+      .then(j => setData(j)).catch(err => {
         console.warn('fetch timetable failed, using empty', err)
         setData({})
       })
@@ -23,28 +23,32 @@ export default function Timetable({ station }) {
     // after render, scroll to nearest upcoming train
     setTimeout(() => {
       const now = nowSecondsSinceMidnight()
-
       for (const lineId in data) {
+        let largestKey = null
         let nearestKey = null
         let nearestDelta = Infinity
         const byDir = data[lineId]
         if (isNaN(lineId)) continue;
         for (const dir in byDir) {
-          for (const [i, t] of byDir[dir].entries()) {
-            const s = Number(t.time1)
+          for (const [tIdx, train] of byDir[dir].entries()) {
+            const s = Number(train.time1)
             const delta = s - now
+            const thisKey = `${lineId}-${dir}-${tIdx}`
+            largestKey = thisKey
             if (delta >= 0 && delta < nearestDelta) {
               nearestDelta = delta
-              nearestKey = `${lineId}-${dir}-${i}`
+              nearestKey = thisKey
             }
           }
           if (nearestKey && rowRefs.current[nearestKey]) {
             rowRefs.current[nearestKey].scrollIntoView({ behavior: 'smooth', block: 'center' })
+          } else if (largestKey && rowRefs.current[largestKey]) {
+            console.log("largest key " + largestKey)
+            rowRefs.current[largestKey].scrollIntoView({ behavior: 'smooth', block: 'center' })
           }
         }
       }
-
-    }, 150)
+    }, 500)
   }, [data])
 
   if (!station) return <div className="p-4">选择一个车站</div>
@@ -62,9 +66,9 @@ export default function Timetable({ station }) {
             <div className="grid grid-cols-1 gap-2 mt-2">
               {Object.entries(dirs).map(([dir, trains]) => (
                 <div key={dir} className="mt-2">
-                  <br/>
+                  <br />
                   <div className="text-sm text-gray-900 mb-1">开往 {(trains[0] && (trains[0].directionStationC || trains[0].directionStationE)) || (dir === '0' ? '下行' : '上行')}</div>
-                  <br/>
+                  <br />
                   <div className="space-y-1" style={{
                     'overflow-y': 'scroll',
                     'height': '12em',
@@ -81,7 +85,7 @@ export default function Timetable({ station }) {
                                 <span>下一站 {t.desStationC || t.desStationE} </span>
                                 <span> {secondsToHHMMSS(t.time1)} - {secondsToHHMMSS(t.time2)}</span>
                               </div>
-                              <div><br/></div>
+                              <div><br /></div>
                             </div>
                           </div>
                         )
