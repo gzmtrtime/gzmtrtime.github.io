@@ -62,7 +62,9 @@ export default function Timetable({ station }) {
             <div className="grid grid-cols-1 gap-2 mt-2">
               {Object.entries(dirs).map(([dir, trains]) => (
                 <div key={dir} className="mt-2">
-                  <div className="text-sm text-gray-600 mb-1">方向: {(trains[0] && (trains[0].directionStationC || trains[0].directionStationE)) || (dir === '0' ? '下行' : '上行')}</div>
+                  <br/>
+                  <div className="text-sm text-gray-900 mb-1">开往 {(trains[0] && (trains[0].directionStationC || trains[0].directionStationE)) || (dir === '0' ? '下行' : '上行')}</div>
+                  <br/>
                   <div className="space-y-1" style={{
                     'overflow-y': 'scroll',
                     'height': '12em',
@@ -73,13 +75,13 @@ export default function Timetable({ station }) {
                         const key = `${lineId}-${dir}-${idx}`
                         return (
                           <div key={key} ref={el => rowRefs.current[key] = el} className="p-2 border rounded flex justify-between items-center">
-                            <div>
-                              <div className="font-medium">往 {t.directionStationC || t.directionStationE} 方向 → 下一站: {t.desStationC || t.desStationE}</div>
-                              <div className="text-sm text-gray-500">车次 #{t.trainNo} · 终点站 {t.trainNoStationC || t.trainNoStationE}</div>
-                            </div>
-                            <div className="text-right">
-                              <div>到达: {secondsToHHMMSS(t.time1)}</div>
-                              <div className="text-sm text-gray-500">发车: {secondsToHHMMSS(t.time2)}</div>
+                            <div key={idx} className="p-2 border-b last:border-none bg-white rounded-md shadow-sm mb-1">
+                              <div className="text-xs text-gray-500">终点站 {t.trainNoStationC || t.trainNoStationE} #{t.trainNo}</div>
+                              <div className="flex justify-between text-sm">
+                                <span>下一站 {t.desStationC || t.desStationE} </span>
+                                <span> {secondsToHHMMSS(t.time1)} - {secondsToHHMMSS(t.time2)}</span>
+                              </div>
+                              <div><br/></div>
                             </div>
                           </div>
                         )
