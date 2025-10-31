@@ -1,7 +1,7 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState, useRef, useLayoutEffect } from 'react'
 import { secondsToHHMMSS, nowSecondsSinceMidnight, saveRecentStation } from '../utils'
 
-export default function Timetable({ station }) {
+export default function Timetable({ station, lineMetas }) {
   const [data, setData] = useState(null)
   const containerRef = useRef(null)
   const rowRefs = useRef({})
@@ -17,38 +17,45 @@ export default function Timetable({ station }) {
     saveRecentStation(station)
   }, [station])
 
-  useEffect(() => {
-    console.log("is data good?", !data);
+  useLayoutEffect(() => {
     if (!data) return
     // after render, scroll to nearest upcoming train
-    setTimeout(() => {
-      const now = nowSecondsSinceMidnight()
-      for (const lineId in data) {
-        let largestKey = null
+    const now = nowSecondsSinceMidnight()
+    // for each line and direction scroll to its own nearest train
+    const scrollKeys = []
+    Object.entries(data).forEach(([lineId, byDir]) => {
+      if (isNaN(Number(lineId))) return
+      Object.entries(byDir).forEach(([dir, trains]) => {
         let nearestKey = null
-        let nearestDelta = Infinity
-        const byDir = data[lineId]
-        if (isNaN(lineId)) continue;
-        for (const dir in byDir) {
-          for (const [tIdx, train] of byDir[dir].entries()) {
-            const s = Number(train.time1)
-            const delta = s - now
-            const thisKey = `${lineId}-${dir}-${tIdx}`
-            largestKey = thisKey
-            if (delta >= 0 && delta < nearestDelta) {
-              nearestDelta = delta
-              nearestKey = thisKey
-            }
+        let nearestDelta = null
+        let fallbackKey = null
+        trains.forEach((train, tIdx) => {
+          const s = Number(train.time1)
+          const delta = s - now
+          const thisKey = `${lineId}-${dir}-${tIdx}`
+          fallbackKey = thisKey
+          if (delta >= 0 && delta < nearestDelta) {
+            nearestDelta = delta
+            nearestKey = thisKey
           }
-          if (nearestKey && rowRefs.current[nearestKey]) {
-            rowRefs.current[nearestKey].scrollIntoView({ behavior: 'smooth', block: 'center' })
-          } else if (largestKey && rowRefs.current[largestKey]) {
-            console.log("largest key " + largestKey)
-            rowRefs.current[largestKey].scrollIntoView({ behavior: 'smooth', block: 'center' })
-          }
+        })
+        if (nearestKey && rowRefs.current[nearestKey]) {
+          scrollKeys.push(nearestKey)
+        } else if (fallbackKey && rowRefs.current[fallbackKey]) {
+          scrollKeys.push(fallbackKey)
         }
-      }
-    }, 500)
+      })
+    })
+    setTimeout(() => {
+      scrollKeys.forEach(key => {
+        if (rowRefs.current[key]) {
+          rowRefs.current[key].scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+          })
+        }
+      })
+    }, 0);
   }, [data])
 
   if (!station) return <div className="p-4">选择一个车站</div>
@@ -62,12 +69,18 @@ export default function Timetable({ station }) {
         {Object.entries(data || {}).map(([lineId, dirs]) => (
           isNaN(lineId) ||
           <div key={lineId} className="p-3 border rounded">
-            <h3 className="font-semibold">{lineId}号线</h3>
+            <h3 className="font-semibold">{
+              (function () {
+                const res = lineMetas.find((itm, idx, allLines) => itm.id === lineId) || { cname: `${lineId}号线`, ename: `Line ${lineId}` }
+                console.log("res" + res)
+                return res.cname || res.ename
+              })()
+            }</h3>
             <div className="grid grid-cols-1 gap-2 mt-2">
               {Object.entries(dirs).map(([dir, trains]) => (
                 <div key={dir} className="mt-2">
                   <br />
-                  <div className="text-sm text-gray-900 mb-1">开往 {(trains[0] && (trains[0].directionStationC || trains[0].directionStationE)) || (dir === '0' ? '下行' : '上行')}</div>
+                  <div className="text-sm text-gray-900 mb-1">{(trains[0] && (trains[0].directionStationC || trains[0].directionStationE)) || (dir === '0' ? '下行' : '上行')} 方向</div>
                   <br />
                   <div className="space-y-1" style={{
                     'overflow-y': 'scroll',

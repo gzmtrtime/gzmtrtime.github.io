@@ -48,7 +48,7 @@ export default function App(){
                 <span className="font-semibold">{selected.cname || selected.ename}</span>
               </div>
             </div>
-            <Timetable station={selected} />
+            <Timetable station={selected} lineMetas={stationMeta.lines} />
           </div>
         )}
       </main>
