@@ -1,0 +1,64 @@
+{
+  "result": {
+    "03": {
+      "0": [
+        {
+          "directionStationF": "Londres",
+          "directionStationE": "London",
+          "oriStation": "043",
+          "oriStationF": "Marseille",
+          "oriStationE": "Marseille",
+          "trainNo": "00902",
+          "trainNoStationF": "Paris",
+          "trainNoStationE": "Paris",
+          "desStation": "044",
+          "desStationF": "Lyon",
+          "desStationE": "Lyon",
+          "lineId": "03",
+          "upDown": "0",
+          "time1": "36000",
+          "time2": "36030",
+          "time3": "36090"
+        },
+        {
+          "directionStationF": "Londres",
+          "directionStationE": "London",
+          "oriStation": "043",
+          "oriStationF": "Marseille",
+          "oriStationE": "Marseille",
+          "trainNo": "00903",
+          "trainNoStationF": "Paris",
+          "trainNoStationE": "Paris",
+          "desStation": "044",
+          "desStationF": "Lyon",
+          "desStationE": "Lyon",
+          "lineId": "03",
+          "upDown": "0",
+          "time1": "36120",
+          "time2": "36150",
+          "time3": "36210"
+        }
+      ],
+      "1": [
+        {
+          "directionStationF": "Paris",
+          "directionStationE": "Paris",
+          "oriStation": "043",
+          "oriStationF": "Marseille",
+          "oriStationE": "Marseille",
+          "trainNo": "02901",
+          "trainNoStationF": "London",
+          "trainNoStationE": "London",
+          "desStation": "042",
+          "desStationF": "Toulouse",
+          "desStationE": "Toulouse",
+          "lineId": "03",
+          "upDown": "1",
+          "time1": "36240",
+          "time2": "36270",
+          "time3": "36390"
+        }
+      ]
+    }
+  }
+}

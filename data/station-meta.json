@@ -1,0 +1,4751 @@
+{
+  "version": 20251102,
+  "lines": [
+    {
+      "cname": "一号线",
+      "ename": "Line 1",
+      "id": "01",
+      "index": 10,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "西塱",
+          "ename": "Xilang",
+          "lineId": "01",
+          "stationId": "1111",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "001"
+        },
+        {
+          "cname": "坑口",
+          "ename": "Kengkou",
+          "lineId": "01",
+          "stationId": "1112",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "002"
+        },
+        {
+          "cname": "花地湾",
+          "ename": "Huadiwan",
+          "lineId": "01",
+          "stationId": "1113",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "003"
+        },
+        {
+          "cname": "芳村",
+          "ename": "Fangcun",
+          "lineId": "01",
+          "stationId": "1114",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "004"
+        },
+        {
+          "cname": "黄沙",
+          "ename": "Huangsha",
+          "lineId": "01",
+          "stationId": "1115",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "005"
+        },
+        {
+          "cname": "长寿路",
+          "ename": "Changshou Lu",
+          "lineId": "01",
+          "stationId": "1116",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "006"
+        },
+        {
+          "cname": "陈家祠",
+          "ename": "Chen Clan Academy",
+          "lineId": "01",
+          "stationId": "1117",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "007"
+        },
+        {
+          "cname": "西门口",
+          "ename": "Ximenkou",
+          "lineId": "01",
+          "stationId": "1118",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "008"
+        },
+        {
+          "cname": "公园前",
+          "ename": "Gongyuanqian",
+          "lineId": "01",
+          "stationId": "1119",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "009"
+        },
+        {
+          "cname": "农讲所",
+          "ename": "Peasant Movement Institute",
+          "lineId": "01",
+          "stationId": "1100",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "010"
+        },
+        {
+          "cname": "烈士陵园",
+          "ename": "Martyrs' Park",
+          "lineId": "01",
+          "stationId": "1101",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "011"
+        },
+        {
+          "cname": "东山口",
+          "ename": "Dongshankou",
+          "lineId": "01",
+          "stationId": "1102",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "012"
+        },
+        {
+          "cname": "杨箕",
+          "ename": "Yangji",
+          "lineId": "01",
+          "stationId": "1103",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "013"
+        },
+        {
+          "cname": "体育西路",
+          "ename": "Tiyu Xilu",
+          "lineId": "01",
+          "stationId": "1104",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "014"
+        },
+        {
+          "cname": "体育中心",
+          "ename": "Tianhe Sports Center",
+          "lineId": "01",
+          "stationId": "1105",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "015"
+        },
+        {
+          "cname": "广州东站",
+          "ename": "Guangzhou East Railway Station",
+          "lineId": "01",
+          "stationId": "1106",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "016"
+        }
+      ]
+    },
+    {
+      "cname": "二号线",
+      "ename": "Line 2",
+      "id": "02",
+      "index": 20,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "广州南站",
+          "ename": "Guangzhou South Railway Station",
+          "lineId": "02",
+          "stationId": "1259",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "096"
+        },
+        {
+          "cname": "石壁",
+          "ename": "Shibi",
+          "lineId": "02",
+          "stationId": "1258",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "095"
+        },
+        {
+          "cname": "会江",
+          "ename": "Huijiang",
+          "lineId": "02",
+          "stationId": "1257",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "094"
+        },
+        {
+          "cname": "南浦",
+          "ename": "Nanpu",
+          "lineId": "02",
+          "stationId": "1256",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "093"
+        },
+        {
+          "cname": "洛溪",
+          "ename": "Luoxi",
+          "lineId": "02",
+          "stationId": "1255",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "092"
+        },
+        {
+          "cname": "南洲",
+          "ename": "Nanzhou",
+          "lineId": "02",
+          "stationId": "1254",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "091"
+        },
+        {
+          "cname": "东晓南",
+          "ename": "Dongxiao South",
+          "lineId": "02",
+          "stationId": "1253",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "090"
+        },
+        {
+          "cname": "江泰路",
+          "ename": "Jiangtai Road",
+          "lineId": "02",
+          "stationId": "1252",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "089"
+        },
+        {
+          "cname": "昌岗",
+          "ename": "Changgang",
+          "lineId": "02",
+          "stationId": "1251",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "088"
+        },
+        {
+          "cname": "江南西",
+          "ename": "Jiangnanxi",
+          "lineId": "02",
+          "stationId": "1219",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "025"
+        },
+        {
+          "cname": "市二宫",
+          "ename": "The 2nd Workers' Cultural Palace",
+          "lineId": "02",
+          "stationId": "1200",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "026"
+        },
+        {
+          "cname": "海珠广场",
+          "ename": "Haizhu Square",
+          "lineId": "02",
+          "stationId": "1201",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "027"
+        },
+        {
+          "cname": "公园前",
+          "ename": "Gongyuanqian",
+          "lineId": "02",
+          "stationId": "1202",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "009"
+        },
+        {
+          "cname": "纪念堂",
+          "ename": "Sun Yat-sen Memorial Hall",
+          "lineId": "02",
+          "stationId": "1203",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "028"
+        },
+        {
+          "cname": "越秀公园",
+          "ename": "Yuexiu  Park",
+          "lineId": "02",
+          "stationId": "1204",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "029"
+        },
+        {
+          "cname": "广州火车站",
+          "ename": "Guangzhou Railway Station",
+          "lineId": "02",
+          "stationId": "1205",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "030"
+        },
+        {
+          "cname": "三元里",
+          "ename": "Sanyuanli",
+          "lineId": "02",
+          "stationId": "1206",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "031"
+        },
+        {
+          "cname": "飞翔公园",
+          "ename": "Feixiang Park",
+          "lineId": "02",
+          "stationId": "1207",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "087"
+        },
+        {
+          "cname": "白云公园",
+          "ename": "Baiyun Park",
+          "lineId": "02",
+          "stationId": "1208",
+          "index": 190,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "086"
+        },
+        {
+          "cname": "白云文化广场",
+          "ename": "Baiyun Culture Square",
+          "lineId": "02",
+          "stationId": "1209",
+          "index": 200,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "085"
+        },
+        {
+          "cname": "萧岗",
+          "ename": "Xiao-gang",
+          "lineId": "02",
+          "stationId": "1230",
+          "index": 210,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "084"
+        },
+        {
+          "cname": "江夏",
+          "ename": "Jiangxia ",
+          "lineId": "02",
+          "stationId": "1231",
+          "index": 220,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "083"
+        },
+        {
+          "cname": "黄边",
+          "ename": "Huangbian",
+          "lineId": "02",
+          "stationId": "1232",
+          "index": 230,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "082"
+        },
+        {
+          "cname": "嘉禾望岗",
+          "ename": "Jiahewanggang",
+          "lineId": "02",
+          "stationId": "1233",
+          "index": 240,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "081"
+        }
+      ]
+    },
+    {
+      "cname": "三号线",
+      "ename": "Line 3",
+      "id": "03",
+      "index": 30,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "海傍",
+          "ename": "Haibang",
+          "lineId": "03",
+          "stationId": "1332",
+          "index": 6,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "053"
+        },
+        {
+          "cname": "海涌路",
+          "ename": "Haichong Lu",
+          "lineId": "03",
+          "stationId": "1331",
+          "index": 7,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "378"
+        },
+        {
+          "cname": "石碁南",
+          "ename": "Shiqinan",
+          "lineId": "03",
+          "stationId": "1330",
+          "index": 8,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "377"
+        },
+        {
+          "cname": "傍江",
+          "ename": "Bangjiang",
+          "lineId": "03",
+          "stationId": "1309",
+          "index": 9,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "376"
+        },
+        {
+          "cname": "番禺广场",
+          "ename": "Panyu Square",
+          "lineId": "03",
+          "stationId": "1303",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "041"
+        },
+        {
+          "cname": "市桥",
+          "ename": "Shiqiao",
+          "lineId": "03",
+          "stationId": "1302",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "040"
+        },
+        {
+          "cname": "汉溪长隆",
+          "ename": "Hanxi Changlong",
+          "lineId": "03",
+          "stationId": "1301",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "039"
+        },
+        {
+          "cname": "大石",
+          "ename": "Dashi",
+          "lineId": "03",
+          "stationId": "1300",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "038"
+        },
+        {
+          "cname": "厦滘",
+          "ename": "Xiajiao",
+          "lineId": "03",
+          "stationId": "1319",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "037"
+        },
+        {
+          "cname": "沥滘",
+          "ename": "Lijiao",
+          "lineId": "03",
+          "stationId": "1318",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "036"
+        },
+        {
+          "cname": "大塘",
+          "ename": "Datang",
+          "lineId": "03",
+          "stationId": "1317",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "035"
+        },
+        {
+          "cname": "客村",
+          "ename": "Kecun",
+          "lineId": "03",
+          "stationId": "1316",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "021"
+        },
+        {
+          "cname": "广州塔",
+          "ename": "Canton Tower",
+          "lineId": "03",
+          "stationId": "1315",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "034"
+        },
+        {
+          "cname": "珠江新城",
+          "ename": "Zhujiang New Town",
+          "lineId": "03",
+          "stationId": "1314",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "033"
+        },
+        {
+          "cname": "体育西路",
+          "ename": "Tiyu Xilu",
+          "lineId": "03",
+          "stationId": "1313",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "014"
+        },
+        {
+          "cname": "石牌桥",
+          "ename": "Shipaiqiao",
+          "lineId": "03",
+          "stationId": "1308",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "046"
+        },
+        {
+          "cname": "岗顶",
+          "ename": "Gangding",
+          "lineId": "03",
+          "stationId": "1307",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "045"
+        },
+        {
+          "cname": "华师",
+          "ename": "South China Normal University",
+          "lineId": "03",
+          "stationId": "1306",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "044"
+        },
+        {
+          "cname": "五山",
+          "ename": "Wushan",
+          "lineId": "03",
+          "stationId": "1305",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "043"
+        },
+        {
+          "cname": "天河客运站",
+          "ename": "Tianhe Coach Terminal",
+          "lineId": "03",
+          "stationId": "1304",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "042"
+        }
+      ]
+    },
+    {
+      "cname": "三号线北延段",
+      "ename": "Line 3 North",
+      "id": "30",
+      "index": 40,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "体育西路",
+          "ename": "Tiyu Xilu",
+          "lineId": "30",
+          "stationId": "1313",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "014"
+        },
+        {
+          "cname": "林和西",
+          "ename": "Linhexi",
+          "lineId": "30",
+          "stationId": "1312",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "032"
+        },
+        {
+          "cname": "广州东站",
+          "ename": "Guangzhou East Railway Station",
+          "lineId": "30",
+          "stationId": "1311",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "016"
+        },
+        {
+          "cname": "燕塘",
+          "ename": "Yantang",
+          "lineId": "30",
+          "stationId": "2001",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "111"
+        },
+        {
+          "cname": "梅花园",
+          "ename": "Meihuayuan",
+          "lineId": "30",
+          "stationId": "2000",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "110"
+        },
+        {
+          "cname": "京溪南方医院",
+          "ename": "Jingxi Nanfang Hospital",
+          "lineId": "30",
+          "stationId": "2019",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "109"
+        },
+        {
+          "cname": "同和",
+          "ename": "Tonghe",
+          "lineId": "30",
+          "stationId": "2018",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "108"
+        },
+        {
+          "cname": "永泰",
+          "ename": "Yongtai",
+          "lineId": "30",
+          "stationId": "2017",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "107"
+        },
+        {
+          "cname": "白云大道北",
+          "ename": "Baiyundadaobei",
+          "lineId": "30",
+          "stationId": "2016",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "125"
+        },
+        {
+          "cname": "嘉禾望岗",
+          "ename": "Jiahewanggang",
+          "lineId": "30",
+          "stationId": "1233",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "081"
+        },
+        {
+          "cname": "龙归",
+          "ename": "Longgui",
+          "lineId": "30",
+          "stationId": "2015",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "106"
+        },
+        {
+          "cname": "人和",
+          "ename": "Renhe",
+          "lineId": "30",
+          "stationId": "2014",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "105"
+        },
+        {
+          "cname": "高增",
+          "ename": "Gaozeng",
+          "lineId": "30",
+          "stationId": "1901",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "104"
+        },
+        {
+          "cname": "机场南",
+          "ename": "Airport S.",
+          "lineId": "30",
+          "stationId": "2012",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "103"
+        },
+        {
+          "cname": "机场北",
+          "ename": "Airport N.",
+          "lineId": "30",
+          "stationId": "2011",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "102"
+        }
+      ]
+    },
+    {
+      "cname": "四号线",
+      "ename": "Line 4",
+      "id": "04",
+      "index": 50,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "南沙客运港",
+          "ename": "Nansha Passenger Port",
+          "lineId": "04",
+          "stationId": "1436",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "250"
+        },
+        {
+          "cname": "南横",
+          "ename": "Nanheng",
+          "lineId": "04",
+          "stationId": "1435",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "249"
+        },
+        {
+          "cname": "塘坑",
+          "ename": "Tangkeng",
+          "lineId": "04",
+          "stationId": "1434",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "248"
+        },
+        {
+          "cname": "大涌",
+          "ename": "Dachong",
+          "lineId": "04",
+          "stationId": "1433",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "247"
+        },
+        {
+          "cname": "广隆",
+          "ename": "Guanglong",
+          "lineId": "04",
+          "stationId": "1432",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "246"
+        },
+        {
+          "cname": "飞沙角",
+          "ename": "Feishajiao",
+          "lineId": "04",
+          "stationId": "1431",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "245"
+        },
+        {
+          "cname": "金洲",
+          "ename": "Jinzhou",
+          "lineId": "04",
+          "stationId": "1430",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "059"
+        },
+        {
+          "cname": "蕉门",
+          "ename": "Jiaomen",
+          "lineId": "04",
+          "stationId": "1409",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "058"
+        },
+        {
+          "cname": "黄阁",
+          "ename": "Huangge",
+          "lineId": "04",
+          "stationId": "1408",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "057"
+        },
+        {
+          "cname": "黄阁汽车城",
+          "ename": "Huangge Auto Town",
+          "lineId": "04",
+          "stationId": "1407",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "056"
+        },
+        {
+          "cname": "庆盛",
+          "ename": "Qingsheng",
+          "lineId": "04",
+          "stationId": "1437",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "230"
+        },
+        {
+          "cname": "东涌",
+          "ename": "Dongchong",
+          "lineId": "04",
+          "stationId": "1406",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "055"
+        },
+        {
+          "cname": "低涌",
+          "ename": "Dichong",
+          "lineId": "04",
+          "stationId": "1405",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "054"
+        },
+        {
+          "cname": "海傍",
+          "ename": "Haibang",
+          "lineId": "04",
+          "stationId": "1404",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "053"
+        },
+        {
+          "cname": "石碁",
+          "ename": "Shiqi",
+          "lineId": "04",
+          "stationId": "1403",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "052"
+        },
+        {
+          "cname": "新造",
+          "ename": "Xinzao",
+          "lineId": "04",
+          "stationId": "1402",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "051"
+        },
+        {
+          "cname": "大学城南",
+          "ename": "Higher Education Mega Center S.",
+          "lineId": "04",
+          "stationId": "1401",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "050"
+        },
+        {
+          "cname": "大学城北",
+          "ename": "Higher Education Mega Center N.",
+          "lineId": "04",
+          "stationId": "1400",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "049"
+        },
+        {
+          "cname": "官洲",
+          "ename": "Guanzhou",
+          "lineId": "04",
+          "stationId": "1419",
+          "index": 190,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "048"
+        },
+        {
+          "cname": "万胜围",
+          "ename": "Wanshengwei",
+          "lineId": "04",
+          "stationId": "1418",
+          "index": 200,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "047"
+        },
+        {
+          "cname": "车陂南",
+          "ename": "Chebeinan",
+          "lineId": "04",
+          "stationId": "1508",
+          "index": 210,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "060"
+        },
+        {
+          "cname": "车陂",
+          "ename": "Chebei",
+          "lineId": "04",
+          "stationId": "1416",
+          "index": 220,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "098"
+        },
+        {
+          "cname": "黄村",
+          "ename": "Huangcun",
+          "lineId": "04",
+          "stationId": "1415",
+          "index": 230,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "097"
+        }
+      ]
+    },
+    {
+      "cname": "五号线",
+      "ename": "Line 5",
+      "id": "05",
+      "index": 60,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "滘口",
+          "ename": "Jiaokou",
+          "lineId": "05",
+          "stationId": "1511",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "061"
+        },
+        {
+          "cname": "坦尾",
+          "ename": "Tanwei",
+          "lineId": "05",
+          "stationId": "1512",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "062"
+        },
+        {
+          "cname": "中山八",
+          "ename": "Zhongshanba",
+          "lineId": "05",
+          "stationId": "1513",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "063"
+        },
+        {
+          "cname": "西场",
+          "ename": "Xichang",
+          "lineId": "05",
+          "stationId": "1514",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "064"
+        },
+        {
+          "cname": "西村",
+          "ename": "Xicun",
+          "lineId": "05",
+          "stationId": "1515",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "065"
+        },
+        {
+          "cname": "广州火车站",
+          "ename": "Guangzhou Railway Station",
+          "lineId": "05",
+          "stationId": "1516",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "030"
+        },
+        {
+          "cname": "小北",
+          "ename": "Xiaobei",
+          "lineId": "05",
+          "stationId": "1517",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "066"
+        },
+        {
+          "cname": "淘金",
+          "ename": "Taojin",
+          "lineId": "05",
+          "stationId": "1518",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "067"
+        },
+        {
+          "cname": "区庄",
+          "ename": "Ouzhuang",
+          "lineId": "05",
+          "stationId": "1519",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "068"
+        },
+        {
+          "cname": "动物园",
+          "ename": "Zoo",
+          "lineId": "05",
+          "stationId": "1500",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "069"
+        },
+        {
+          "cname": "杨箕",
+          "ename": "Yangji",
+          "lineId": "05",
+          "stationId": "1501",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "013"
+        },
+        {
+          "cname": "五羊邨",
+          "ename": "Wuyangcun",
+          "lineId": "05",
+          "stationId": "1502",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "070"
+        },
+        {
+          "cname": "珠江新城",
+          "ename": "Zhujiang New Town",
+          "lineId": "05",
+          "stationId": "1503",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "033"
+        },
+        {
+          "cname": "猎德",
+          "ename": "Liede",
+          "lineId": "05",
+          "stationId": "1504",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "071"
+        },
+        {
+          "cname": "潭村",
+          "ename": "Tancun",
+          "lineId": "05",
+          "stationId": "1505",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "072"
+        },
+        {
+          "cname": "员村",
+          "ename": "Yuancun",
+          "lineId": "05",
+          "stationId": "1506",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "073"
+        },
+        {
+          "cname": "科韵路",
+          "ename": "Keyun Lu",
+          "lineId": "05",
+          "stationId": "1507",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "074"
+        },
+        {
+          "cname": "车陂南",
+          "ename": "Chebeinan",
+          "lineId": "05",
+          "stationId": "1508",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "060"
+        },
+        {
+          "cname": "东圃",
+          "ename": "Dongpu",
+          "lineId": "05",
+          "stationId": "1509",
+          "index": 190,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "075"
+        },
+        {
+          "cname": "三溪",
+          "ename": "Sanxi",
+          "lineId": "05",
+          "stationId": "1530",
+          "index": 200,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "076"
+        },
+        {
+          "cname": "鱼珠",
+          "ename": "Yuzhu",
+          "lineId": "05",
+          "stationId": "1531",
+          "index": 210,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "077"
+        },
+        {
+          "cname": "大沙地",
+          "ename": "Dashadi",
+          "lineId": "05",
+          "stationId": "1532",
+          "index": 220,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "078"
+        },
+        {
+          "cname": "大沙东",
+          "ename": "Dashadong",
+          "lineId": "05",
+          "stationId": "1533",
+          "index": 230,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "079"
+        },
+        {
+          "cname": "文冲",
+          "ename": "Wenchong",
+          "lineId": "05",
+          "stationId": "1534",
+          "index": 240,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "080"
+        },
+        {
+          "cname": "双沙",
+          "ename": "Shuangsha",
+          "lineId": "05",
+          "stationId": "1535",
+          "index": 250,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "271"
+        },
+        {
+          "cname": "庙头",
+          "ename": "Miaotou",
+          "lineId": "05",
+          "stationId": "1536",
+          "index": 260,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "353"
+        },
+        {
+          "cname": "夏园",
+          "ename": "Xiayuan",
+          "lineId": "05",
+          "stationId": "1537",
+          "index": 270,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "238"
+        },
+        {
+          "cname": "保盈大道",
+          "ename": "Baoying Dadao",
+          "lineId": "05",
+          "stationId": "1538",
+          "index": 280,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "354"
+        },
+        {
+          "cname": "夏港",
+          "ename": "Xiagang",
+          "lineId": "05",
+          "stationId": "1539",
+          "index": 290,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "355"
+        },
+        {
+          "cname": "黄埔新港",
+          "ename": "Huangpu New Port",
+          "lineId": "05",
+          "stationId": "1520",
+          "index": 300,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "356"
+        }
+      ]
+    },
+    {
+      "cname": "六号线",
+      "ename": "Line 6",
+      "id": "06",
+      "index": 70,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "浔峰岗",
+          "ename": "Xunfenggang",
+          "lineId": "06",
+          "stationId": "1611",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "126"
+        },
+        {
+          "cname": "横沙",
+          "ename": "Hengsha",
+          "lineId": "06",
+          "stationId": "1612",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "127"
+        },
+        {
+          "cname": "沙贝",
+          "ename": "Shabei",
+          "lineId": "06",
+          "stationId": "1613",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "128"
+        },
+        {
+          "cname": "河沙",
+          "ename": "Hesha",
+          "lineId": "06",
+          "stationId": "1614",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "129"
+        },
+        {
+          "cname": "坦尾",
+          "ename": "Tanwei",
+          "lineId": "06",
+          "stationId": "1615",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "062"
+        },
+        {
+          "cname": "如意坊",
+          "ename": "Ruyifang",
+          "lineId": "06",
+          "stationId": "1616",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "130"
+        },
+        {
+          "cname": "黄沙",
+          "ename": "Huangsha",
+          "lineId": "06",
+          "stationId": "1617",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "005"
+        },
+        {
+          "cname": "文化公园",
+          "ename": "Cultural Park",
+          "lineId": "06",
+          "stationId": "1618",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "131"
+        },
+        {
+          "cname": "一德路",
+          "ename": "Yide Lu",
+          "lineId": "06",
+          "stationId": "1619",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "132"
+        },
+        {
+          "cname": "海珠广场",
+          "ename": "Haizhu Square",
+          "lineId": "06",
+          "stationId": "1600",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "027"
+        },
+        {
+          "cname": "北京路",
+          "ename": "Beijing Lu",
+          "lineId": "06",
+          "stationId": "1601",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "133"
+        },
+        {
+          "cname": "团一大广场",
+          "ename": "Tuanyida Square",
+          "lineId": "06",
+          "stationId": "1602",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "134"
+        },
+        {
+          "cname": "东湖",
+          "ename": "Donghu",
+          "lineId": "06",
+          "stationId": "1603",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "135"
+        },
+        {
+          "cname": "东山口",
+          "ename": "Dongshankou",
+          "lineId": "06",
+          "stationId": "1604",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "012"
+        },
+        {
+          "cname": "区庄",
+          "ename": "Ouzhuang",
+          "lineId": "06",
+          "stationId": "1605",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "068"
+        },
+        {
+          "cname": "黄花岗",
+          "ename": "Huanghuagang",
+          "lineId": "06",
+          "stationId": "1606",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "136"
+        },
+        {
+          "cname": "沙河顶",
+          "ename": "Shaheding",
+          "lineId": "06",
+          "stationId": "1607",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "137"
+        },
+        {
+          "cname": "沙河",
+          "ename": "Shahe",
+          "lineId": "06",
+          "stationId": "1608",
+          "index": 171,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "138"
+        },
+        {
+          "cname": "天平架",
+          "ename": "Tianpingjia",
+          "lineId": "06",
+          "stationId": "1609",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "139"
+        },
+        {
+          "cname": "燕塘",
+          "ename": "Yantang",
+          "lineId": "06",
+          "stationId": "2001",
+          "index": 190,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "111"
+        },
+        {
+          "cname": "天河客运站",
+          "ename": "Tianhe Coach Terminal",
+          "lineId": "06",
+          "stationId": "1631",
+          "index": 200,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "042"
+        },
+        {
+          "cname": "长湴",
+          "ename": "Changban",
+          "lineId": "06",
+          "stationId": "1632",
+          "index": 210,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "140"
+        },
+        {
+          "cname": "植物园",
+          "ename": "Botanical Garden",
+          "lineId": "06",
+          "stationId": "1633",
+          "index": 220,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "147"
+        },
+        {
+          "cname": "龙洞",
+          "ename": "Longdong",
+          "lineId": "06",
+          "stationId": "1634",
+          "index": 230,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "148"
+        },
+        {
+          "cname": "柯木塱",
+          "ename": "Kemulang",
+          "lineId": "06",
+          "stationId": "1635",
+          "index": 240,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "149"
+        },
+        {
+          "cname": "高塘石",
+          "ename": "Gaotangshi",
+          "lineId": "06",
+          "stationId": "1636",
+          "index": 250,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "150"
+        },
+        {
+          "cname": "黄陂",
+          "ename": "Huangbei",
+          "lineId": "06",
+          "stationId": "1637",
+          "index": 260,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "151"
+        },
+        {
+          "cname": "金峰",
+          "ename": "Jinfeng",
+          "lineId": "06",
+          "stationId": "1638",
+          "index": 270,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "152"
+        },
+        {
+          "cname": "暹岗",
+          "ename": "Xiangang",
+          "lineId": "06",
+          "stationId": "1639",
+          "index": 280,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "153"
+        },
+        {
+          "cname": "苏元",
+          "ename": "Suyuan",
+          "lineId": "06",
+          "stationId": "1620",
+          "index": 290,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "154"
+        },
+        {
+          "cname": "萝岗",
+          "ename": "Luogang",
+          "lineId": "06",
+          "stationId": "1621",
+          "index": 300,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "155"
+        },
+        {
+          "cname": "香雪",
+          "ename": "Xiangxue",
+          "lineId": "06",
+          "stationId": "1622",
+          "index": 310,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "156"
+        }
+      ]
+    },
+    {
+      "cname": "七号线",
+      "ename": "Line 7",
+      "id": "07",
+      "index": 80,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "美的大道",
+          "ename": "Meidi Dadao",
+          "lineId": "07",
+          "stationId": "1735",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "314"
+        },
+        {
+          "cname": "北滘公园",
+          "ename": "Beijiao Park",
+          "lineId": "07",
+          "stationId": "1736",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "315"
+        },
+        {
+          "cname": "美的",
+          "ename": "Midea",
+          "lineId": "07",
+          "stationId": "1737",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "316"
+        },
+        {
+          "cname": "南涌",
+          "ename": "Nanchong",
+          "lineId": "07",
+          "stationId": "1738",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "317"
+        },
+        {
+          "cname": "锦龙",
+          "ename": "Jinlong",
+          "lineId": "07",
+          "stationId": "1739",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "318"
+        },
+        {
+          "cname": "陈村",
+          "ename": "Chencun",
+          "lineId": "07",
+          "stationId": "1720",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "319"
+        },
+        {
+          "cname": "陈村北",
+          "ename": "Chencunbei",
+          "lineId": "07",
+          "stationId": "1721",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "211"
+        },
+        {
+          "cname": "大洲",
+          "ename": "Dazhou",
+          "lineId": "07",
+          "stationId": "1722",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "320"
+        },
+        {
+          "cname": "广州南站",
+          "ename": "Guangzhou South Railway Station",
+          "lineId": "07",
+          "stationId": "1711",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "096"
+        },
+        {
+          "cname": "石壁",
+          "ename": "Shibi",
+          "lineId": "07",
+          "stationId": "1712",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "095"
+        },
+        {
+          "cname": "谢村",
+          "ename": "Xiecun",
+          "lineId": "07",
+          "stationId": "1713",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "157"
+        },
+        {
+          "cname": "钟村",
+          "ename": "Zhongcun",
+          "lineId": "07",
+          "stationId": "1714",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "158"
+        },
+        {
+          "cname": "汉溪长隆",
+          "ename": "Hanxi Changlong",
+          "lineId": "07",
+          "stationId": "1715",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "039"
+        },
+        {
+          "cname": "南村万博",
+          "ename": "Nancun Wanbo",
+          "lineId": "07",
+          "stationId": "1716",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "159"
+        },
+        {
+          "cname": "员岗",
+          "ename": "Yuangang",
+          "lineId": "07",
+          "stationId": "1717",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "160"
+        },
+        {
+          "cname": "板桥",
+          "ename": "Banqiao",
+          "lineId": "07",
+          "stationId": "1718",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "161"
+        },
+        {
+          "cname": "大学城南",
+          "ename": "Higher Education Mega Center S.",
+          "lineId": "07",
+          "stationId": "1719",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "050"
+        },
+        {
+          "cname": "深井",
+          "ename": "Shenjing",
+          "lineId": "07",
+          "stationId": "1700",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "379"
+        },
+        {
+          "cname": "长洲",
+          "ename": "Changzhou",
+          "lineId": "07",
+          "stationId": "1701",
+          "index": 190,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "380"
+        },
+        {
+          "cname": "裕丰围",
+          "ename": "Yufengwei",
+          "lineId": "07",
+          "stationId": "1703",
+          "index": 210,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "235"
+        },
+        {
+          "cname": "大沙东",
+          "ename": "Dashadong",
+          "lineId": "07",
+          "stationId": "1704",
+          "index": 220,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "079"
+        },
+        {
+          "cname": "姬堂",
+          "ename": "Jitang",
+          "lineId": "07",
+          "stationId": "1705",
+          "index": 230,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "382"
+        },
+        {
+          "cname": "加庄",
+          "ename": "Jiazhuang",
+          "lineId": "07",
+          "stationId": "1706",
+          "index": 240,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "383"
+        },
+        {
+          "cname": "科丰路",
+          "ename": "Kefeng Lu",
+          "lineId": "07",
+          "stationId": "1707",
+          "index": 250,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "384"
+        },
+        {
+          "cname": "萝岗",
+          "ename": "Luogang",
+          "lineId": "07",
+          "stationId": "1708",
+          "index": 260,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "155"
+        },
+        {
+          "cname": "水西",
+          "ename": "Shuixi",
+          "lineId": "07",
+          "stationId": "1709",
+          "index": 270,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "301"
+        },
+        {
+          "cname": "燕山",
+          "ename": "Yanshan",
+          "lineId": "07",
+          "stationId": "1730",
+          "index": 280,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "385"
+        }
+      ]
+    },
+    {
+      "cname": "八号线",
+      "ename": "Line 8",
+      "id": "08",
+      "index": 90,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "滘心",
+          "ename": "Jiaoxin",
+          "lineId": "08",
+          "stationId": "1838",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "273"
+        },
+        {
+          "cname": "亭岗",
+          "ename": "Tinggang",
+          "lineId": "08",
+          "stationId": "1837",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "274"
+        },
+        {
+          "cname": "石井",
+          "ename": "Shijing",
+          "lineId": "08",
+          "stationId": "1811",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "275"
+        },
+        {
+          "cname": "小坪",
+          "ename": "Xiaoping",
+          "lineId": "08",
+          "stationId": "1812",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "276"
+        },
+        {
+          "cname": "石潭",
+          "ename": "Shitan",
+          "lineId": "08",
+          "stationId": "1813",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "277"
+        },
+        {
+          "cname": "聚龙",
+          "ename": "Julong",
+          "lineId": "08",
+          "stationId": "1814",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "278"
+        },
+        {
+          "cname": "上步",
+          "ename": "Shangbu",
+          "lineId": "08",
+          "stationId": "1815",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "279"
+        },
+        {
+          "cname": "同德",
+          "ename": "Tongde",
+          "lineId": "08",
+          "stationId": "1816",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "280"
+        },
+        {
+          "cname": "鹅掌坦",
+          "ename": "Ezhangtan",
+          "lineId": "08",
+          "stationId": "1818",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "281"
+        },
+        {
+          "cname": "西村",
+          "ename": "Xicun",
+          "lineId": "08",
+          "stationId": "1817",
+          "index": 101,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "065"
+        },
+        {
+          "cname": "彩虹桥",
+          "ename": "Caihong Bridge",
+          "lineId": "08",
+          "stationId": "1819",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "282"
+        },
+        {
+          "cname": "陈家祠",
+          "ename": "Chen Clan Academy",
+          "lineId": "08",
+          "stationId": "1800",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "007"
+        },
+        {
+          "cname": "华林寺",
+          "ename": "Hualinsi Buddhist Temple",
+          "lineId": "08",
+          "stationId": "1801",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "283"
+        },
+        {
+          "cname": "文化公园",
+          "ename": "Cultural Park",
+          "lineId": "08",
+          "stationId": "1618",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "131"
+        },
+        {
+          "cname": "同福西",
+          "ename": "Tongfuxi",
+          "lineId": "08",
+          "stationId": "1803",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "284"
+        },
+        {
+          "cname": "凤凰新村",
+          "ename": "Fenghuang Xincun",
+          "lineId": "08",
+          "stationId": "1804",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "099"
+        },
+        {
+          "cname": "沙园",
+          "ename": "Shayuan",
+          "lineId": "08",
+          "stationId": "1805",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "100"
+        },
+        {
+          "cname": "宝岗大道",
+          "ename": "Baogang Dadao",
+          "lineId": "08",
+          "stationId": "1806",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "101"
+        },
+        {
+          "cname": "昌岗",
+          "ename": "Changgang",
+          "lineId": "08",
+          "stationId": "1251",
+          "index": 190,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "088"
+        },
+        {
+          "cname": "晓港",
+          "ename": "Xiaogang",
+          "lineId": "08",
+          "stationId": "1808",
+          "index": 200,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "024"
+        },
+        {
+          "cname": "中大",
+          "ename": "Sun Yat-sen University ",
+          "lineId": "08",
+          "stationId": "1809",
+          "index": 210,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "023"
+        },
+        {
+          "cname": "鹭江",
+          "ename": "Lujiang",
+          "lineId": "08",
+          "stationId": "1830",
+          "index": 220,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "022"
+        },
+        {
+          "cname": "客村",
+          "ename": "Kecun",
+          "lineId": "08",
+          "stationId": "1831",
+          "index": 230,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "021"
+        },
+        {
+          "cname": "赤岗",
+          "ename": "Chigang",
+          "lineId": "08",
+          "stationId": "1832",
+          "index": 240,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "020"
+        },
+        {
+          "cname": "磨碟沙",
+          "ename": "Modiesha",
+          "lineId": "08",
+          "stationId": "1833",
+          "index": 250,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "019"
+        },
+        {
+          "cname": "新港东",
+          "ename": "Xingangdong",
+          "lineId": "08",
+          "stationId": "1834",
+          "index": 260,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "018"
+        },
+        {
+          "cname": "琶洲",
+          "ename": "Pazhou",
+          "lineId": "08",
+          "stationId": "1835",
+          "index": 270,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "017"
+        },
+        {
+          "cname": "万胜围",
+          "ename": "Wanshengwei",
+          "lineId": "08",
+          "stationId": "1418",
+          "index": 280,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "047"
+        }
+      ]
+    },
+    {
+      "cname": "九号线",
+      "ename": "Line 9",
+      "id": "09",
+      "index": 100,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "飞鹅岭",
+          "ename": "Fei'eling",
+          "lineId": "09",
+          "stationId": "1911",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "251"
+        },
+        {
+          "cname": "花都汽车城",
+          "ename": "Huadu Autocity",
+          "lineId": "09",
+          "stationId": "1912",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "252"
+        },
+        {
+          "cname": "广州北站",
+          "ename": "Guangzhou North Railway Station",
+          "lineId": "09",
+          "stationId": "1913",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "253"
+        },
+        {
+          "cname": "花城路",
+          "ename": "Huachenglu",
+          "lineId": "09",
+          "stationId": "1914",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "254"
+        },
+        {
+          "cname": "花果山公园",
+          "ename": "Huaguoshan Park",
+          "lineId": "09",
+          "stationId": "1915",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "255"
+        },
+        {
+          "cname": "花都广场",
+          "ename": "Huadu Square",
+          "lineId": "09",
+          "stationId": "1916",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "256"
+        },
+        {
+          "cname": "马鞍山公园",
+          "ename": "Ma'anshan Park",
+          "lineId": "09",
+          "stationId": "1917",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "257"
+        },
+        {
+          "cname": "莲塘",
+          "ename": "Liantang",
+          "lineId": "09",
+          "stationId": "1918",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "258"
+        },
+        {
+          "cname": "清土布",
+          "ename": "Qingbu",
+          "lineId": "09",
+          "stationId": "1919",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "259"
+        },
+        {
+          "cname": "清塘",
+          "ename": "Qingtang",
+          "lineId": "09",
+          "stationId": "1900",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "260"
+        },
+        {
+          "cname": "高增",
+          "ename": "Gaozeng",
+          "lineId": "09",
+          "stationId": "1901",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "104"
+        }
+      ]
+    },
+    {
+      "cname": "十号线",
+      "ename": "Line 10",
+      "id": "10",
+      "index": 101,
+      "version": 20250629,
+      "stationList": [
+        {
+          "cname": "西塱",
+          "ename": "Xilang",
+          "lineId": "10",
+          "stationId": "0011",
+          "index": 10,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "001"
+        },
+        {
+          "cname": "花围",
+          "ename": "Huawei",
+          "lineId": "10",
+          "stationId": "0012",
+          "index": 20,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "396"
+        },
+        {
+          "cname": "东沙",
+          "ename": "Dongsha",
+          "lineId": "10",
+          "stationId": "0013",
+          "index": 30,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "397"
+        },
+        {
+          "cname": "大干围",
+          "ename": "Daganwei",
+          "lineId": "10",
+          "stationId": "0014",
+          "index": 40,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "398"
+        },
+        {
+          "cname": "工业大道南",
+          "ename": "Gongye Avenue South",
+          "lineId": "10",
+          "stationId": "0015",
+          "index": 50,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "387"
+        },
+        {
+          "cname": "东晓南",
+          "ename": "Dongxiao South",
+          "lineId": "10",
+          "stationId": "0016",
+          "index": 60,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "090"
+        },
+        {
+          "cname": "五凤",
+          "ename": "Wufeng",
+          "lineId": "10",
+          "stationId": "0017",
+          "index": 70,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "371"
+        },
+        {
+          "cname": "滨江东路",
+          "ename": "Binjiang East Road",
+          "lineId": "10",
+          "stationId": "0019",
+          "index": 80,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "400"
+        },
+        {
+          "cname": "东湖",
+          "ename": "Donghu",
+          "lineId": "10",
+          "stationId": "0000",
+          "index": 90,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "135"
+        },
+        {
+          "cname": "五羊邨",
+          "ename": "Wuyangcun",
+          "lineId": "10",
+          "stationId": "0001",
+          "index": 100,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "070"
+        },
+        {
+          "cname": "杨箕东",
+          "ename": "Yangji East",
+          "lineId": "10",
+          "stationId": "0002",
+          "index": 110,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "403"
+        }
+      ]
+    },
+    {
+      "cname": "十一号线",
+      "ename": "Line 11",
+      "id": "11",
+      "index": 105,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "赤沙",
+          "ename": "Chisha",
+          "lineId": "11",
+          "stationId": "0111",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "357"
+        },
+        {
+          "cname": "琶洲",
+          "ename": "Pazhou",
+          "lineId": "11",
+          "stationId": "0112",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "017"
+        },
+        {
+          "cname": "员村",
+          "ename": "Yuancun",
+          "lineId": "11",
+          "stationId": "0113",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "073"
+        },
+        {
+          "cname": "天河公园",
+          "ename": "Tianhe Park",
+          "lineId": "11",
+          "stationId": "0114",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "295"
+        },
+        {
+          "cname": "华景路",
+          "ename": "Huajing Road",
+          "lineId": "11",
+          "stationId": "0115",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "358"
+        },
+        {
+          "cname": "华师",
+          "ename": "South China Normal University",
+          "lineId": "11",
+          "stationId": "0116",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "044"
+        },
+        {
+          "cname": "龙口西",
+          "ename": "Longkou West",
+          "lineId": "11",
+          "stationId": "0117",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "359"
+        },
+        {
+          "cname": "广州东站",
+          "ename": "Guangzhou East Railway Station",
+          "lineId": "11",
+          "stationId": "0118",
+          "index": 75,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "016"
+        },
+        {
+          "cname": "沙河",
+          "ename": "Shahe",
+          "lineId": "11",
+          "stationId": "0119",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "138"
+        },
+        {
+          "cname": "云台花园",
+          "ename": "Yuntai Garden",
+          "lineId": "11",
+          "stationId": "0100",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "362"
+        },
+        {
+          "cname": "大金钟路",
+          "ename": "Dajinzhong Road",
+          "lineId": "11",
+          "stationId": "0101",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "363"
+        },
+        {
+          "cname": "中医药大学",
+          "ename": "Guangzhou University of Chinese Medicine",
+          "lineId": "11",
+          "stationId": "0102",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "364"
+        },
+        {
+          "cname": "梓元岗",
+          "ename": "Ziyuangang",
+          "lineId": "11",
+          "stationId": "0103",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "365"
+        },
+        {
+          "cname": "流花",
+          "ename": "Liuhua",
+          "lineId": "11",
+          "stationId": "0105",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "366"
+        },
+        {
+          "cname": "彩虹桥",
+          "ename": "Caihong Bridge",
+          "lineId": "11",
+          "stationId": "0106",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "282"
+        },
+        {
+          "cname": "中山八",
+          "ename": "Zhongshanba",
+          "lineId": "11",
+          "stationId": "0107",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "063"
+        },
+        {
+          "cname": "如意坊",
+          "ename": "Ruyifang",
+          "lineId": "11",
+          "stationId": "0108",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "130"
+        },
+        {
+          "cname": "石围塘",
+          "ename": "Shiweitang",
+          "lineId": "11",
+          "stationId": "0109",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "367"
+        },
+        {
+          "cname": "芳村",
+          "ename": "Fangcun",
+          "lineId": "11",
+          "stationId": "0130",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "004"
+        },
+        {
+          "cname": "大冲口",
+          "ename": "Dachongkou",
+          "lineId": "11",
+          "stationId": "0131",
+          "index": 190,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "368"
+        },
+        {
+          "cname": "沙涌",
+          "ename": "Shachong",
+          "lineId": "11",
+          "stationId": "0132",
+          "index": 200,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "228"
+        },
+        {
+          "cname": "鹤洞东",
+          "ename": "Hedong East",
+          "lineId": "11",
+          "stationId": "0133",
+          "index": 210,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "369"
+        },
+        {
+          "cname": "棣园",
+          "ename": "Diyuan",
+          "lineId": "11",
+          "stationId": "0134",
+          "index": 220,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "370"
+        },
+        {
+          "cname": "燕岗",
+          "ename": "Yangang",
+          "lineId": "11",
+          "stationId": "0135",
+          "index": 230,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "229"
+        },
+        {
+          "cname": "江泰路",
+          "ename": "Jiangtai Road",
+          "lineId": "11",
+          "stationId": "0136",
+          "index": 240,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "089"
+        },
+        {
+          "cname": "五凤",
+          "ename": "Wufeng",
+          "lineId": "11",
+          "stationId": "0137",
+          "index": 250,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "371"
+        },
+        {
+          "cname": "逸景路",
+          "ename": "Yijing Road",
+          "lineId": "11",
+          "stationId": "0138",
+          "index": 260,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "372"
+        },
+        {
+          "cname": "上涌",
+          "ename": "Shangchong",
+          "lineId": "11",
+          "stationId": "0139",
+          "index": 270,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "373"
+        },
+        {
+          "cname": "大塘",
+          "ename": "Datang",
+          "lineId": "11",
+          "stationId": "0120",
+          "index": 280,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "035"
+        },
+        {
+          "cname": "龙潭",
+          "ename": "Longtan",
+          "lineId": "11",
+          "stationId": "0121",
+          "index": 290,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "325"
+        }
+      ]
+    },
+    {
+      "cname": "十二号线",
+      "ename": "Line 12",
+      "id": "12",
+      "index": 106,
+      "version": 20250629,
+      "stationList": [
+        {
+          "cname": "二沙岛",
+          "ename": "Ersha Island",
+          "lineId": "12",
+          "stationId": "0207",
+          "index": 100,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "412"
+        },
+        {
+          "cname": "赤岗塔",
+          "ename": "Chigang Pagoda",
+          "lineId": "12",
+          "stationId": "0208",
+          "index": 110,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "413"
+        },
+        {
+          "cname": "赤沙北",
+          "ename": "Chisha North",
+          "lineId": "12",
+          "stationId": "0230",
+          "index": 120,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "386"
+        },
+        {
+          "cname": "赤沙",
+          "ename": "Chisha",
+          "lineId": "12",
+          "stationId": "0231",
+          "index": 130,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "357"
+        },
+        {
+          "cname": "北山",
+          "ename": "Beishan",
+          "lineId": "12",
+          "stationId": "0232",
+          "index": 140,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "415"
+        },
+        {
+          "cname": "官洲",
+          "ename": "Guanzhou",
+          "lineId": "12",
+          "stationId": "0233",
+          "index": 150,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "048"
+        },
+        {
+          "cname": "大学城北",
+          "ename": "Higher Education Mega Center N",
+          "lineId": "12",
+          "stationId": "0234",
+          "index": 160,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "049"
+        },
+        {
+          "cname": "大学城南",
+          "ename": "Higher Education Mega Center S",
+          "lineId": "12",
+          "stationId": "0235",
+          "index": 170,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "050"
+        }
+      ]
+    },
+    {
+      "cname": "十二号线",
+      "ename": "Line12",
+      "id": "99",
+      "index": 107,
+      "version": 20250629,
+      "stationList": [
+        {
+          "cname": "浔峰岗",
+          "ename": "Xunfenggang",
+          "lineId": "99",
+          "stationId": "0211",
+          "index": 10,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "126"
+        },
+        {
+          "cname": "浔峰岗北",
+          "ename": "Xunfenggang North",
+          "lineId": "99",
+          "stationId": "0212",
+          "index": 20,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "404"
+        },
+        {
+          "cname": "西洲",
+          "ename": "Xizhou",
+          "lineId": "99",
+          "stationId": "0213",
+          "index": 30,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "333"
+        },
+        {
+          "cname": "聚龙",
+          "ename": "Julong",
+          "lineId": "99",
+          "stationId": "0214",
+          "index": 40,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "278"
+        },
+        {
+          "cname": "广州白云站",
+          "ename": "Guangzhou Baiyun Railway Station",
+          "lineId": "99",
+          "stationId": "0215",
+          "index": 50,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "405"
+        },
+        {
+          "cname": "棠涌",
+          "ename": "Tangchong",
+          "lineId": "99",
+          "stationId": "0216",
+          "index": 60,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "406"
+        },
+        {
+          "cname": "新市墟",
+          "ename": "Xinshixu",
+          "lineId": "99",
+          "stationId": "0217",
+          "index": 70,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "348"
+        },
+        {
+          "cname": "白云文化广场",
+          "ename": "Baiyun Culture Square",
+          "lineId": "99",
+          "stationId": "0218",
+          "index": 80,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "085"
+        },
+        {
+          "cname": "广州体育馆",
+          "ename": "Guangzhou Gymnasium",
+          "lineId": "99",
+          "stationId": "0219",
+          "index": 90,
+          "version": 20250629,
+          "stationCode": null,
+          "stationNo": "407"
+        }
+      ]
+    },
+    {
+      "cname": "十三号线",
+      "ename": "Line 13",
+      "id": "13",
+      "index": 110,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "天河公园",
+          "ename": "Tianhe Park",
+          "lineId": "13",
+          "stationId": "0321",
+          "index": 1,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "295"
+        },
+        {
+          "cname": "棠下",
+          "ename": "Tangxia",
+          "lineId": "13",
+          "stationId": "0322",
+          "index": 2,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "416"
+        },
+        {
+          "cname": "车陂",
+          "ename": "Chebei",
+          "lineId": "13",
+          "stationId": "0323",
+          "index": 3,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "098"
+        },
+        {
+          "cname": "天河珠村",
+          "ename": "Tianhe Zhucun",
+          "lineId": "13",
+          "stationId": "0324",
+          "index": 4,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "417"
+        },
+        {
+          "cname": "鱼珠",
+          "ename": "Yuzhu",
+          "lineId": "13",
+          "stationId": "0311",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "077"
+        },
+        {
+          "cname": "裕丰围",
+          "ename": "Yufengwei",
+          "lineId": "13",
+          "stationId": "0312",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "235"
+        },
+        {
+          "cname": "双岗",
+          "ename": "Shuanggang",
+          "lineId": "13",
+          "stationId": "0313",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "236"
+        },
+        {
+          "cname": "南海神庙",
+          "ename": "Nanhai God Temple",
+          "lineId": "13",
+          "stationId": "0314",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "237"
+        },
+        {
+          "cname": "夏园",
+          "ename": "Xiayuan",
+          "lineId": "13",
+          "stationId": "0315",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "238"
+        },
+        {
+          "cname": "南岗",
+          "ename": "Nangang",
+          "lineId": "13",
+          "stationId": "0316",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "239"
+        },
+        {
+          "cname": "沙村",
+          "ename": "Shacun",
+          "lineId": "13",
+          "stationId": "0317",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "240"
+        },
+        {
+          "cname": "白江",
+          "ename": "Baijiang",
+          "lineId": "13",
+          "stationId": "0318",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "241"
+        },
+        {
+          "cname": "新塘",
+          "ename": "Xintang",
+          "lineId": "13",
+          "stationId": "0319",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "242"
+        },
+        {
+          "cname": "官湖",
+          "ename": "Guanhu",
+          "lineId": "13",
+          "stationId": "0300",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "243"
+        },
+        {
+          "cname": "新沙",
+          "ename": "Xinsha",
+          "lineId": "13",
+          "stationId": "0301",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "244"
+        }
+      ]
+    },
+    {
+      "cname": "十四号线",
+      "ename": "Line 14",
+      "id": "14",
+      "index": 120,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "东风",
+          "ename": "Dongfeng",
+          "lineId": "14",
+          "stationId": "0411",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "294"
+        },
+        {
+          "cname": "从化客运站",
+          "ename": "Conghua Coach Terminal",
+          "lineId": "14",
+          "stationId": "0412",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "293"
+        },
+        {
+          "cname": "赤草",
+          "ename": "Chicao",
+          "lineId": "14",
+          "stationId": "0413",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "292"
+        },
+        {
+          "cname": "神岗",
+          "ename": "Shengang",
+          "lineId": "14",
+          "stationId": "0414",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "291"
+        },
+        {
+          "cname": "太平",
+          "ename": "Taiping",
+          "lineId": "14",
+          "stationId": "0415",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "290"
+        },
+        {
+          "cname": "新和",
+          "ename": "Xinhe",
+          "lineId": "14",
+          "stationId": "0416",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "261"
+        },
+        {
+          "cname": "马沥",
+          "ename": "Mali",
+          "lineId": "14",
+          "stationId": "0417",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "289"
+        },
+        {
+          "cname": "钟落潭",
+          "ename": "Zhongluotan",
+          "lineId": "14",
+          "stationId": "0418",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "288"
+        },
+        {
+          "cname": "竹料",
+          "ename": "Zhuliao",
+          "lineId": "14",
+          "stationId": "0419",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "287"
+        },
+        {
+          "cname": "太和",
+          "ename": "Taihe",
+          "lineId": "14",
+          "stationId": "0400",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "286"
+        },
+        {
+          "cname": "夏良",
+          "ename": "Xialiang",
+          "lineId": "14",
+          "stationId": "0401",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "285"
+        },
+        {
+          "cname": "白云东平",
+          "ename": "Baiyun Dongping",
+          "lineId": "14",
+          "stationId": "0402",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "313"
+        },
+        {
+          "cname": "嘉禾望岗",
+          "ename": "Jiahewanggang",
+          "lineId": "14",
+          "stationId": "0403",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "081"
+        },
+        {
+          "cname": "彭边",
+          "ename": "Pengbian",
+          "lineId": "14",
+          "stationId": "0404",
+          "index": 131,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "423"
+        },
+        {
+          "cname": "鹤龙",
+          "ename": "Helong",
+          "lineId": "14",
+          "stationId": "0405",
+          "index": 132,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "422"
+        },
+        {
+          "cname": "鹤边",
+          "ename": "Hebian",
+          "lineId": "14",
+          "stationId": "0406",
+          "index": 133,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "421"
+        },
+        {
+          "cname": "马务",
+          "ename": "Mawu",
+          "lineId": "14",
+          "stationId": "0407",
+          "index": 134,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "420"
+        },
+        {
+          "cname": "新市墟",
+          "ename": "Xinshixu",
+          "lineId": "14",
+          "stationId": "0408",
+          "index": 135,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "348"
+        },
+        {
+          "cname": "云霄路",
+          "ename": "Yunxiao Road",
+          "lineId": "14",
+          "stationId": "0409",
+          "index": 136,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "419"
+        },
+        {
+          "cname": "乐嘉路",
+          "ename": "Lejia Road",
+          "lineId": "14",
+          "stationId": "0430",
+          "index": 137,
+          "version": 20250929,
+          "stationCode": null,
+          "stationNo": "418"
+        }
+      ]
+    },
+    {
+      "cname": "十四号线",
+      "ename": "Line 14",
+      "id": "32",
+      "index": 125,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "新和",
+          "ename": "Xinhe",
+          "lineId": "32",
+          "stationId": "2211",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "261"
+        },
+        {
+          "cname": "红卫",
+          "ename": "Hongwei",
+          "lineId": "32",
+          "stationId": "2212",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "262"
+        },
+        {
+          "cname": "新南",
+          "ename": "Xinnan",
+          "lineId": "32",
+          "stationId": "2213",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "263"
+        },
+        {
+          "cname": "枫下",
+          "ename": "Fengxia",
+          "lineId": "32",
+          "stationId": "2214",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "264"
+        },
+        {
+          "cname": "知识城",
+          "ename": "Sino-Singapore Guangzhou Knowledge City",
+          "lineId": "32",
+          "stationId": "2215",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "265"
+        },
+        {
+          "cname": "何棠下",
+          "ename": "Hetangxia",
+          "lineId": "32",
+          "stationId": "2216",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "266"
+        },
+        {
+          "cname": "旺村",
+          "ename": "Wangcun",
+          "lineId": "32",
+          "stationId": "2217",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "267"
+        },
+        {
+          "cname": "汤村",
+          "ename": "Tangcun",
+          "lineId": "32",
+          "stationId": "2218",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "268"
+        },
+        {
+          "cname": "镇龙北",
+          "ename": "Zhenlongbei",
+          "lineId": "32",
+          "stationId": "2219",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "269"
+        },
+        {
+          "cname": "镇龙",
+          "ename": "Zhenlong",
+          "lineId": "32",
+          "stationId": "2200",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "270"
+        }
+      ]
+    },
+    {
+      "cname": "十八号线",
+      "ename": "Line 18",
+      "id": "18",
+      "index": 130,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "冼村",
+          "ename": "Xiancun",
+          "lineId": "18",
+          "stationId": "0812",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "327"
+        },
+        {
+          "cname": "磨碟沙",
+          "ename": "Modiesha",
+          "lineId": "18",
+          "stationId": "0813",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "019"
+        },
+        {
+          "cname": "龙潭",
+          "ename": "Longtan",
+          "lineId": "18",
+          "stationId": "0814",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "325"
+        },
+        {
+          "cname": "沙溪",
+          "ename": "Shaxi",
+          "lineId": "18",
+          "stationId": "0815",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "324"
+        },
+        {
+          "cname": "南村万博",
+          "ename": "Nancun Wanbo",
+          "lineId": "18",
+          "stationId": "0816",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "159"
+        },
+        {
+          "cname": "番禺广场",
+          "ename": "Panyu Square",
+          "lineId": "18",
+          "stationId": "3218",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "041"
+        },
+        {
+          "cname": "横沥",
+          "ename": "Hengli",
+          "lineId": "18",
+          "stationId": "0818",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "322"
+        },
+        {
+          "cname": "万顷沙",
+          "ename": "Wanqingsha",
+          "lineId": "18",
+          "stationId": "0819",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "321"
+        }
+      ]
+    },
+    {
+      "cname": "二十一号线",
+      "ename": "Line 21",
+      "id": "21",
+      "index": 140,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "天河公园",
+          "ename": "Tianhe Park",
+          "lineId": "21",
+          "stationId": "3112",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "295"
+        },
+        {
+          "cname": "棠东",
+          "ename": "Tangdong",
+          "lineId": "21",
+          "stationId": "3113",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "296"
+        },
+        {
+          "cname": "黄村",
+          "ename": "Huangcun",
+          "lineId": "21",
+          "stationId": "3114",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "097"
+        },
+        {
+          "cname": "大观南路",
+          "ename": "Daguannanlu",
+          "lineId": "21",
+          "stationId": "3115",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "297"
+        },
+        {
+          "cname": "天河智慧城",
+          "ename": "Tianhe Smart City",
+          "lineId": "21",
+          "stationId": "3116",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "298"
+        },
+        {
+          "cname": "神舟路",
+          "ename": "Shenzhoulu",
+          "lineId": "21",
+          "stationId": "3117",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "299"
+        },
+        {
+          "cname": "科学城",
+          "ename": "Science City",
+          "lineId": "21",
+          "stationId": "3118",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "300"
+        },
+        {
+          "cname": "苏元",
+          "ename": "Suyuan",
+          "lineId": "21",
+          "stationId": "3119",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "154"
+        },
+        {
+          "cname": "水西",
+          "ename": "Shuixi",
+          "lineId": "21",
+          "stationId": "3100",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "301"
+        },
+        {
+          "cname": "长平",
+          "ename": "Changping",
+          "lineId": "21",
+          "stationId": "3101",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "302"
+        },
+        {
+          "cname": "金坑",
+          "ename": "Jinkeng",
+          "lineId": "21",
+          "stationId": "3102",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "303"
+        },
+        {
+          "cname": "镇龙西",
+          "ename": "Zhenlongxi",
+          "lineId": "21",
+          "stationId": "3103",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "304"
+        },
+        {
+          "cname": "镇龙",
+          "ename": "Zhenlong",
+          "lineId": "21",
+          "stationId": "3104",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "270"
+        },
+        {
+          "cname": "中新",
+          "ename": "Zhongxin",
+          "lineId": "21",
+          "stationId": "3105",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "305"
+        },
+        {
+          "cname": "坑贝",
+          "ename": "Kengbei",
+          "lineId": "21",
+          "stationId": "3106",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "306"
+        },
+        {
+          "cname": "凤岗",
+          "ename": "Fenggang",
+          "lineId": "21",
+          "stationId": "3107",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "307"
+        },
+        {
+          "cname": "朱村",
+          "ename": "Zhucun",
+          "lineId": "21",
+          "stationId": "3108",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "311"
+        },
+        {
+          "cname": "山田",
+          "ename": "Shantian",
+          "lineId": "21",
+          "stationId": "3109",
+          "index": 190,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "308"
+        },
+        {
+          "cname": "钟岗",
+          "ename": "Zhonggang",
+          "lineId": "21",
+          "stationId": "3130",
+          "index": 200,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "309"
+        },
+        {
+          "cname": "增城广场",
+          "ename": "Zengcheng Square",
+          "lineId": "21",
+          "stationId": "3131",
+          "index": 210,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "310"
+        }
+      ]
+    },
+    {
+      "cname": "二十二号线",
+      "ename": "Line 22",
+      "id": "22",
+      "index": 150,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "陈头岗",
+          "ename": "Chentougang",
+          "lineId": "22",
+          "stationId": "3215",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "329"
+        },
+        {
+          "cname": "广州南站",
+          "ename": "Guangzhou South Railway Station",
+          "lineId": "22",
+          "stationId": "3216",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "096"
+        },
+        {
+          "cname": "市广路",
+          "ename": "Shiguanglu",
+          "lineId": "22",
+          "stationId": "3217",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "328"
+        },
+        {
+          "cname": "番禺广场",
+          "ename": "Panyu Square",
+          "lineId": "22",
+          "stationId": "3218",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "041"
+        }
+      ]
+    },
+    {
+      "cname": "广佛线",
+      "ename": "Guangfo Line",
+      "id": "60",
+      "index": 170,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "新城东",
+          "ename": "Xincheng Dong",
+          "lineId": "60",
+          "stationId": "7035",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "234"
+        },
+        {
+          "cname": "东平",
+          "ename": "Dongping",
+          "lineId": "60",
+          "stationId": "7034",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "233"
+        },
+        {
+          "cname": "世纪莲",
+          "ename": "Shijilian",
+          "lineId": "60",
+          "stationId": "7033",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "232"
+        },
+        {
+          "cname": "澜石",
+          "ename": "Lanshi",
+          "lineId": "60",
+          "stationId": "7032",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "231"
+        },
+        {
+          "cname": "魁奇路",
+          "ename": "Kuiqi Lu",
+          "lineId": "60",
+          "stationId": "7011",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "112"
+        },
+        {
+          "cname": "季华园",
+          "ename": "Jihua Park",
+          "lineId": "60",
+          "stationId": "7012",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "113"
+        },
+        {
+          "cname": "同济路",
+          "ename": "Tongji Lu",
+          "lineId": "60",
+          "stationId": "7013",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "114"
+        },
+        {
+          "cname": "祖庙",
+          "ename": "Zumiao",
+          "lineId": "60",
+          "stationId": "7014",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "115"
+        },
+        {
+          "cname": "普君北路",
+          "ename": "Pujun Beilu",
+          "lineId": "60",
+          "stationId": "7015",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "116"
+        },
+        {
+          "cname": "朝安",
+          "ename": "Chao'an",
+          "lineId": "60",
+          "stationId": "7016",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "117"
+        },
+        {
+          "cname": "桂城",
+          "ename": "Guicheng",
+          "lineId": "60",
+          "stationId": "7017",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "118"
+        },
+        {
+          "cname": "南桂路",
+          "ename": "Nangui Lu",
+          "lineId": "60",
+          "stationId": "7018",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "119"
+        },
+        {
+          "cname": "虫雷岗",
+          "ename": "Leigang",
+          "lineId": "60",
+          "stationId": "7019",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "120"
+        },
+        {
+          "cname": "千灯湖",
+          "ename": "Qiandeng Lake",
+          "lineId": "60",
+          "stationId": "7000",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "121"
+        },
+        {
+          "cname": "金融高新区",
+          "ename": "Financial Hi-Tech Zone",
+          "lineId": "60",
+          "stationId": "7001",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "122"
+        },
+        {
+          "cname": "龙溪",
+          "ename": "Longxi",
+          "lineId": "60",
+          "stationId": "7002",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "123"
+        },
+        {
+          "cname": "菊树",
+          "ename": "Jushu",
+          "lineId": "60",
+          "stationId": "7003",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "124"
+        },
+        {
+          "cname": "西塱",
+          "ename": "Xilang",
+          "lineId": "60",
+          "stationId": "7004",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "001"
+        },
+        {
+          "cname": "鹤洞",
+          "ename": "Hedong",
+          "lineId": "60",
+          "stationId": "7005",
+          "index": 190,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "227"
+        },
+        {
+          "cname": "沙涌",
+          "ename": "Shachong",
+          "lineId": "60",
+          "stationId": "7006",
+          "index": 200,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "228"
+        },
+        {
+          "cname": "沙园",
+          "ename": "Shayuan",
+          "lineId": "60",
+          "stationId": "1805",
+          "index": 210,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "100"
+        },
+        {
+          "cname": "燕岗",
+          "ename": "Yangang",
+          "lineId": "60",
+          "stationId": "7008",
+          "index": 220,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "229"
+        },
+        {
+          "cname": "石溪",
+          "ename": "Shixi",
+          "lineId": "60",
+          "stationId": "7009",
+          "index": 230,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "312"
+        },
+        {
+          "cname": "南洲",
+          "ename": "Nanzhou",
+          "lineId": "60",
+          "stationId": "7030",
+          "index": 240,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "091"
+        },
+        {
+          "cname": "沥滘",
+          "ename": "Lijiao",
+          "lineId": "60",
+          "stationId": "7031",
+          "index": 250,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "036"
+        }
+      ]
+    },
+    {
+      "cname": "佛山二号线",
+      "ename": "Foshan Line 2",
+      "id": "42",
+      "index": 180,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "南庄",
+          "ename": "Nanzhuang",
+          "lineId": "42",
+          "stationId": "5211",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "700"
+        },
+        {
+          "cname": "湖涌",
+          "ename": "Huchong",
+          "lineId": "42",
+          "stationId": "5212",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "701"
+        },
+        {
+          "cname": "绿岛湖",
+          "ename": "Lvdao Lake",
+          "lineId": "42",
+          "stationId": "5213",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "702"
+        },
+        {
+          "cname": "智慧新城",
+          "ename": "Zhihui Xincheng",
+          "lineId": "42",
+          "stationId": "5214",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "703"
+        },
+        {
+          "cname": "张槎",
+          "ename": "Zhangcha",
+          "lineId": "42",
+          "stationId": "5215",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "704"
+        },
+        {
+          "cname": "石湾",
+          "ename": "Shiwan",
+          "lineId": "42",
+          "stationId": "5216",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "705"
+        },
+        {
+          "cname": "沙岗",
+          "ename": "Shagang",
+          "lineId": "42",
+          "stationId": "5217",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "706"
+        },
+        {
+          "cname": "魁奇路",
+          "ename": "Kuiqi Lu",
+          "lineId": "42",
+          "stationId": "5218",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "112"
+        },
+        {
+          "cname": "石梁",
+          "ename": "Shiliang",
+          "lineId": "42",
+          "stationId": "5219",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "707"
+        },
+        {
+          "cname": "湾华",
+          "ename": "Wanhua",
+          "lineId": "42",
+          "stationId": "5200",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "708"
+        },
+        {
+          "cname": "登洲",
+          "ename": "Dengzhou",
+          "lineId": "42",
+          "stationId": "5201",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "709"
+        },
+        {
+          "cname": "花卉世界",
+          "ename": "Flower World",
+          "lineId": "42",
+          "stationId": "5202",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "710"
+        },
+        {
+          "cname": "仙涌",
+          "ename": "Xianchong",
+          "lineId": "42",
+          "stationId": "5203",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "711"
+        },
+        {
+          "cname": "石洲",
+          "ename": "Shizhou",
+          "lineId": "42",
+          "stationId": "5204",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "712"
+        },
+        {
+          "cname": "林岳西",
+          "ename": "Linyue Xi",
+          "lineId": "42",
+          "stationId": "5205",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "713"
+        },
+        {
+          "cname": "林岳东",
+          "ename": "Linyue Dong",
+          "lineId": "42",
+          "stationId": "5206",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "714"
+        },
+        {
+          "cname": "广州南站",
+          "ename": "Guangzhou South Railway Station",
+          "lineId": "42",
+          "stationId": "5207",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "096"
+        }
+      ]
+    },
+    {
+      "cname": "佛山三号线",
+      "ename": "Foshan Line 3",
+      "id": "43",
+      "index": 190,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "顺德学院站",
+          "ename": "Shunde College Railway Station",
+          "lineId": "43",
+          "stationId": "5312",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "730"
+        },
+        {
+          "cname": "顺德欢乐海岸",
+          "ename": "Shunde OCT Harbour PLUS",
+          "lineId": "43",
+          "stationId": "5313",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "731"
+        },
+        {
+          "cname": "顺德一中",
+          "ename": "Shunde No.1 High School",
+          "lineId": "43",
+          "stationId": "5314",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "732"
+        },
+        {
+          "cname": "驹荣北路",
+          "ename": "Jurong Beilu",
+          "lineId": "43",
+          "stationId": "5315",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "733"
+        },
+        {
+          "cname": "东乐路",
+          "ename": "Dongle Lu",
+          "lineId": "43",
+          "stationId": "5316",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "734"
+        },
+        {
+          "cname": "大良钟楼",
+          "ename": "Daliang Zhonglou",
+          "lineId": "43",
+          "stationId": "5317",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "735"
+        },
+        {
+          "cname": "环市北",
+          "ename": "Huanshi Bei",
+          "lineId": "43",
+          "stationId": "5318",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "736"
+        },
+        {
+          "cname": "顺德人民医院",
+          "ename": "The First People's Hospital of Shunde",
+          "lineId": "43",
+          "stationId": "5319",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "737"
+        },
+        {
+          "cname": "荔村",
+          "ename": "Licun",
+          "lineId": "43",
+          "stationId": "5300",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "738"
+        },
+        {
+          "cname": "伦教",
+          "ename": "Lunjiao",
+          "lineId": "43",
+          "stationId": "5301",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "739"
+        },
+        {
+          "cname": "广教",
+          "ename": "Guangjiao",
+          "lineId": "43",
+          "stationId": "5302",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "740"
+        },
+        {
+          "cname": "北滘公园",
+          "ename": "Beijiao Park",
+          "lineId": "43",
+          "stationId": "5303",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "315"
+        },
+        {
+          "cname": "高村",
+          "ename": "Gaocun",
+          "lineId": "43",
+          "stationId": "5304",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "741"
+        },
+        {
+          "cname": "北滘西站",
+          "ename": "Beijiao West Railway Station",
+          "lineId": "43",
+          "stationId": "5305",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "742"
+        },
+        {
+          "cname": "潭洲会展",
+          "ename": "Tanzhou Convention & Exhibition Center",
+          "lineId": "43",
+          "stationId": "5306",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "743"
+        },
+        {
+          "cname": "岳步",
+          "ename": "Yuebu",
+          "lineId": "43",
+          "stationId": "5307",
+          "index": 160,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "744"
+        },
+        {
+          "cname": "大墩",
+          "ename": "Dadun",
+          "lineId": "43",
+          "stationId": "5308",
+          "index": 170,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "745"
+        },
+        {
+          "cname": "东平",
+          "ename": "Dongping",
+          "lineId": "43",
+          "stationId": "5309",
+          "index": 180,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "233"
+        },
+        {
+          "cname": "湾华",
+          "ename": "Wanhua",
+          "lineId": "43",
+          "stationId": "5330",
+          "index": 190,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "708"
+        },
+        {
+          "cname": "亚艺公园",
+          "ename": "Yayi Park",
+          "lineId": "43",
+          "stationId": "5331",
+          "index": 200,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "746"
+        },
+        {
+          "cname": "季华六路",
+          "ename": "Jihua Liulu",
+          "lineId": "43",
+          "stationId": "5332",
+          "index": 210,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "747"
+        },
+        {
+          "cname": "镇安",
+          "ename": "Zhen'an",
+          "lineId": "43",
+          "stationId": "5333",
+          "index": 220,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "748"
+        },
+        {
+          "cname": "桂城",
+          "ename": "Guicheng",
+          "lineId": "43",
+          "stationId": "5334",
+          "index": 230,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "118"
+        },
+        {
+          "cname": "西约",
+          "ename": "Xiyue",
+          "lineId": "43",
+          "stationId": "5335",
+          "index": 240,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "749"
+        },
+        {
+          "cname": "叠滘",
+          "ename": "Diejiao",
+          "lineId": "43",
+          "stationId": "5336",
+          "index": 250,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "750"
+        },
+        {
+          "cname": "中山公园",
+          "ename": "Zhongshan Park",
+          "lineId": "43",
+          "stationId": "5337",
+          "index": 260,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "751"
+        },
+        {
+          "cname": "联和",
+          "ename": "Lianhe",
+          "lineId": "43",
+          "stationId": "7620",
+          "index": 290,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "754"
+        },
+        {
+          "cname": "孝德东",
+          "ename": "Xiaode Dong",
+          "lineId": "43",
+          "stationId": "7621",
+          "index": 300,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "755"
+        },
+        {
+          "cname": "罗村",
+          "ename": "Luocun",
+          "lineId": "43",
+          "stationId": "7622",
+          "index": 310,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "756"
+        },
+        {
+          "cname": "佛山西站",
+          "ename": "Foshan West Railway Station",
+          "lineId": "43",
+          "stationId": "7623",
+          "index": 320,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "757"
+        },
+        {
+          "cname": "兴业东路",
+          "ename": "Xingye Donglu",
+          "lineId": "43",
+          "stationId": "7624",
+          "index": 330,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "758"
+        },
+        {
+          "cname": "科盛路",
+          "ename": "Kesheng Lu",
+          "lineId": "43",
+          "stationId": "7625",
+          "index": 340,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "759"
+        },
+        {
+          "cname": "博爱中路",
+          "ename": "Bo‘ai Zhonglu",
+          "lineId": "43",
+          "stationId": "7626",
+          "index": 350,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "760"
+        },
+        {
+          "cname": "南海大学城",
+          "ename": "Nanhai University Town",
+          "lineId": "43",
+          "stationId": "7627",
+          "index": 360,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "761"
+        },
+        {
+          "cname": "佛山大学",
+          "ename": "Foshan University",
+          "lineId": "43",
+          "stationId": "7628",
+          "index": 370,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "762"
+        }
+      ]
+    },
+    {
+      "cname": "佛山南海新交通",
+      "ename": "TNH1",
+      "id": "61",
+      "index": 200,
+      "version": 0,
+      "stationList": [
+        {
+          "cname": "虫雷岗",
+          "ename": "Leigang",
+          "lineId": "61",
+          "stationId": "7111",
+          "index": 10,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "716"
+        },
+        {
+          "cname": "华翠路",
+          "ename": "Huacuilu",
+          "lineId": "61",
+          "stationId": "7112",
+          "index": 20,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "717"
+        },
+        {
+          "cname": "夏西",
+          "ename": "Xiaxi",
+          "lineId": "61",
+          "stationId": "7113",
+          "index": 30,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "718"
+        },
+        {
+          "cname": "夏东",
+          "ename": "Xiadong",
+          "lineId": "61",
+          "stationId": "7114",
+          "index": 40,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "719"
+        },
+        {
+          "cname": "康怡公园",
+          "ename": "Kangyi Park",
+          "lineId": "61",
+          "stationId": "7115",
+          "index": 50,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "720"
+        },
+        {
+          "cname": "平西",
+          "ename": "Pingxi",
+          "lineId": "61",
+          "stationId": "7116",
+          "index": 60,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "721"
+        },
+        {
+          "cname": "平南",
+          "ename": "Pingnan",
+          "lineId": "61",
+          "stationId": "7117",
+          "index": 70,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "722"
+        },
+        {
+          "cname": "玉器街",
+          "ename": "Yuqijie",
+          "lineId": "61",
+          "stationId": "7118",
+          "index": 80,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "723"
+        },
+        {
+          "cname": "中区",
+          "ename": "Zhongqu",
+          "lineId": "61",
+          "stationId": "7119",
+          "index": 90,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "724"
+        },
+        {
+          "cname": "三山新城北",
+          "ename": "Sanshanxinchengbei",
+          "lineId": "61",
+          "stationId": "7100",
+          "index": 100,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "725"
+        },
+        {
+          "cname": "文翰湖公园",
+          "ename": "Wenhanhu Park",
+          "lineId": "61",
+          "stationId": "7101",
+          "index": 110,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "726"
+        },
+        {
+          "cname": "三山新城南",
+          "ename": "Sanshanxinchengnan",
+          "lineId": "61",
+          "stationId": "7102",
+          "index": 120,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "727"
+        },
+        {
+          "cname": "林岳北",
+          "ename": "Linyuebei",
+          "lineId": "61",
+          "stationId": "7103",
+          "index": 130,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "728"
+        },
+        {
+          "cname": "林岳西",
+          "ename": "Linyue Xi",
+          "lineId": "61",
+          "stationId": "7104",
+          "index": 140,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "713"
+        },
+        {
+          "cname": "林岳东",
+          "ename": "Linyuedong",
+          "lineId": "61",
+          "stationId": "7105",
+          "index": 150,
+          "version": 0,
+          "stationCode": null,
+          "stationNo": "729"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 20251029,
+  "lines": [
+    {
+      "fname": "1号线",
+      "ename": "Line 1",
+      "id": "01",
+      "stationList": [
+        {
+          "fname": "Paris",
+          "ename": "Paris",
+          "lineId": "01",
+          "stationId": "1111"
+        },
+        {
+          "fname": "Marseille",
+          "ename": "Marseille",
+          "lineId": "01",
+          "stationId": "1112"
+        }
+      ]
+    },
+    {
+      "fname": "3号线",
+      "ename": "Line 3",
+      "id": "03",
+      "stationList": [
+        {
+          "fname": "Marseille",
+          "ename": "Marseille",
+          "lineId": "03",
+          "stationId": "043"
+        },
+        {
+          "fname": "Lyon",
+          "ename": "Lyon",
+          "lineId": "03",
+          "stationId": "044"
+        }
+      ]
+    }
+  ]
+}
